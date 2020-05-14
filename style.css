@@ -1,0 +1,95 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.step > p {
+    margin: 0;
+  }
+  
+  .step {
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    min-width: 140px;
+    float: left;
+    position: relative;
+    background: #ebeef0;
+    margin-right: 24px;
+    height: 36px;
+  }
+  
+  .step:after,
+  .step:before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    right: -16px;
+    width: 0;
+    height: 0;
+    border-top: 27px solid transparent;
+    border-bottom: 27px solid transparent;
+    border-left: 17px solid #ebeef0;
+    z-index: 2;
+    transition: border-color 0.2s ease;
+  }
+  
+  .step:before {
+    border-top: 27px solid transparent;
+    border-bottom: 28px solid transparent;
+    border-left: 16px solid #ebeef0;
+  }
+
+  .header {
+    background: #FFA500;
+    color: white;
+    font-weight: bold;
+  }
+
+  .header:after,
+  .header:before {
+    border-left: 17px solid #FFA500;
+  }
+
+  .header:before {
+    border-left: 16px solid #FFA500;
+  }
+
+  .dark-blue {
+    height: 36px;
+    background: #006c9a;
+    color: white;
+  }
+
+  .dark-blue:after,
+  .dark-blue:before {
+    border-left: 17px solid #006c9a;
+  }
+
+  .dark-blue:before {
+    border-left: 16px solid #006c9a;
+  }
+  
+  .green {
+    height: 36px;
+    background: #009a0d;
+    color: white;
+  }
+
+  .green:after,
+  .green:before {
+    border-left: 17px solid #009a0d;
+  }
+
+  .green:before {
+    border-left: 16px solid #009a0d;
+  }
+
+  .step-description {
+    font-size: 13px;
+  }
