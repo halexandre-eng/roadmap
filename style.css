@@ -16,12 +16,21 @@ body{
   .step {
     text-align: center;
     padding: 10px 10px 10px 10px;
+<<<<<<< HEAD
+    min-width: 92px;
+    float: left;
+    position: relative;
+    background: #ebeef0;
+    height: 14px;
+    font-size: 11.5px;
+=======
     min-width: 140px;
     float: left;
     position: relative;
     background: #ebeef0;
     margin-right: 24px;
     height: 36px;
+>>>>>>> 483db8c699520ff0f41f0a20b58bbc476775302b
   }
   
   .step:after,
@@ -32,16 +41,26 @@ body{
     right: -16px;
     width: 0;
     height: 0;
+<<<<<<< HEAD
+    border-top: 17px solid transparent;
+    border-bottom: 17px solid transparent;
+=======
     border-top: 27px solid transparent;
     border-bottom: 27px solid transparent;
+>>>>>>> 483db8c699520ff0f41f0a20b58bbc476775302b
     border-left: 17px solid #ebeef0;
     z-index: 2;
     transition: border-color 0.2s ease;
   }
   
   .step:before {
+<<<<<<< HEAD
+    border-top: 17px solid transparent;
+    border-bottom: 18px solid transparent;
+=======
     border-top: 27px solid transparent;
     border-bottom: 28px solid transparent;
+>>>>>>> 483db8c699520ff0f41f0a20b58bbc476775302b
     border-left: 16px solid #ebeef0;
   }
 
@@ -54,6 +73,10 @@ body{
   .header:after,
   .header:before {
     border-left: 17px solid #FFA500;
+<<<<<<< HEAD
+    
+=======
+>>>>>>> 483db8c699520ff0f41f0a20b58bbc476775302b
   }
 
   .header:before {
@@ -61,14 +84,35 @@ body{
   }
 
   .dark-blue {
+<<<<<<< HEAD
+    height: 14px;
+    background: #006c9a;
+    color: white;
+    font-size: 11.5px;
+=======
     height: 36px;
     background: #006c9a;
     color: white;
+>>>>>>> 483db8c699520ff0f41f0a20b58bbc476775302b
   }
 
   .dark-blue:after,
   .dark-blue:before {
     border-left: 17px solid #006c9a;
+<<<<<<< HEAD
+    border-top: 17px solid transparent;
+    border-bottom: 17px solid transparent;
+  }
+
+  .dark-blue:before {
+    border-top: 17px solid transparent;
+    border-bottom: 18px solid transparent;
+    border-left: 16px solid #FFF;
+  }
+  
+  .green {
+    height: 14px;
+=======
   }
 
   .dark-blue:before {
@@ -77,6 +121,7 @@ body{
   
   .green {
     height: 36px;
+>>>>>>> 483db8c699520ff0f41f0a20b58bbc476775302b
     background: #009a0d;
     color: white;
   }
@@ -87,9 +132,63 @@ body{
   }
 
   .green:before {
+<<<<<<< HEAD
+    border-left: 16px solid #FFF;
+  }
+
+  .purple {
+    height: 14px;
+    background: #9C27B0;
+    color: white;
+  }
+
+  .purple:after,
+  .purple:before {
+    border-left: 17px solid #9C27B0;
+  }
+
+  .purple:before {
+    border-left: 16px solid #FFF;
+  }
+
+  .pink {
+    height: 14px;
+    background: #E91E63;
+    color: white;
+  }
+
+  .pink:after,
+  .pink:before {
+    border-left: 17px solid #E91E63;
+  }
+
+  .pink:before {
+    border-left: 16px solid #FFF;
+=======
     border-left: 16px solid #009a0d;
+>>>>>>> 483db8c699520ff0f41f0a20b58bbc476775302b
   }
 
   .step-description {
     font-size: 13px;
   }
+<<<<<<< HEAD
+
+  .rotate {
+    writing-mode: vertical-rl;
+    text-align: center;
+    transform:rotate(180deg);
+    height:150px;
+  }
+
+  .step-process-automation{
+    width: 100%; 
+    text-align:center;
+  }
+  .step-process-automation p{
+    color: #236c9a;
+    font-weight: bold;
+    border-bottom: 3px solid #236c9a;
+  }
+=======
+>>>>>>> 483db8c699520ff0f41f0a20b58bbc476775302b
